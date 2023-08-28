@@ -8,6 +8,13 @@ Noting that there could be more mods that may be inconflict and loading this pat
 
 These patches are for [Baldurs Gate 3](https://baldursgate3.game/) mods. Go to https://www.nexusmods.com/baldursgate3/mods/ to see all the available mods.
 
+The built patches are hosted here [nexusmods.com - progressions compatibility patches
+](https://www.nexusmods.com/baldursgate3/mods/1572)
+
+## Supported Patches
+
+- FeatsEvery2Levels + Sorcerer2xSpells
+
 ## Description
 
 This is a simple collection of mods aimed towards fixing some cross mod compatibility issues.
