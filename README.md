@@ -26,6 +26,17 @@ This kind of pattern will happen with other mods that adjust Progressions/progre
 
 ## Contributing
 
+### Getting Started
+
+1. This is a PC tutorial...there's probably a linux option somewhere if needed. Google it an add a link to this README.md if you find one.
+2. Download the latest exporttool Baldurs Gate 3 pak tool. It uses LZ4 or zlib to create .pak files. Go to this repo [Norbyte/lslib/releases](https://github.com/Norbyte/lslib/releases)
+3. In the exporttool download folder Launch ConverterApp.exe
+4. Click on the tab for PAK/LSV tools and make sure you are on Baldur's Gate 3 (64 Bit) for Game (above the tabs).
+6. Extract the mods that are conflicting by providing the path or using the explorer.
+7. Open the conflicting file in VSCode. https://code.visualstudio.com/ if you do not have VSCode download it.
+8. Reference the other mod's Progression/Progression.lsx file. FYI Theses files are XML, and the overwrite procedure looks like anything with a conflicting level will overwrite all values inside it. IE it will not merge the values but directly overwrite. Your patch will need to combine any level reference that contains different data and export only those values
+
+
 ### New Mod Patches
 
 - Folder name should be `PCP_<Mod1>_<Mod2>_<Mod3>`
