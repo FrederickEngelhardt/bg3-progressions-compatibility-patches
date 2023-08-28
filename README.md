@@ -42,7 +42,7 @@ This kind of pattern will happen with other mods that adjust Progressions/progre
 
 #### Requirements
 - Folder name should be `PCP_<Mod1>_<Mod2>_<Mod3>`
-- Each patch should contain a `Mods/ProgressionsCompatibilityPatches/meta.lsx` and a `Public/ProgressionsCompatibilityPatches/Progressions.lsx`
+- Each patch should contain a `Mods/ProgressionsCompatibilityPatch/meta.lsx` and a `Public/ProgressionsCompatibilityPatch/Progressions.lsx`
 - Under meta.lsx please make sure to add the related mods as dependencies, not doing so will make it hard to track down the specific mod that this patch targets.
    - the dependencies should be only the mods related to this patch.
 - Make sure the meta is separate UUID, it's possible a few patches will be used together and listed as compatible.

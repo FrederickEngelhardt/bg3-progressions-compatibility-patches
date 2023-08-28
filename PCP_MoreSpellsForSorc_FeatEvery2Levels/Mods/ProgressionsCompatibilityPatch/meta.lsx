@@ -25,9 +25,9 @@
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSWString" value="zolantris"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSWString" value="Progression Compatibility Patches - patch for sorcerer 2x spells + every 2 levels a feat 1-12"/>
-                    <attribute id="Folder" type="LSString" value="ProgressionCompatibilityPatches"/>
-                    <attribute id="Name" type="LSString" value="ProgCompatPatches"/>
+                    <attribute id="Description" type="LSWString" value="Progression Compatibility Patch - patch for sorcerer 2x spells + every 2 levels a feat 1-12"/>
+                    <attribute id="Folder" type="LSString" value="ProgressionsCompatibilityPatch"/>
+                    <attribute id="Name" type="LSString" value="ProgCompatPatch"/>
                     <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value=""/>
