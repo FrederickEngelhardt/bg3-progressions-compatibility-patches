@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="10" build="400"/>
+    <version major="4" minor="1" revision="1" build="366"/>
     <region id="Progressions">
         <node id="root">
             <children>
-                <!-- compatibility between double sorcerer spells and feats per 2 levels -->
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC)"/>
                     <attribute id="Level" type="uint8" value="2"/>
@@ -33,7 +32,6 @@
                     <attribute id="Selectors" type="LSString" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,1,0,SorcererCantrip,,,AlwaysPrepared);SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,1,Metamagic);SelectSpells(3276fcfe-e143-4559-b6e0-7d7aa0ffcb53,2,2,SorcererSpell)"/>
                     <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
                     <attribute id="UUID" type="guid" value="1c091ba4-d911-4c48-99ed-da58463f2ed3"/>
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="AllowImprovement" type="bool" value="true"/>
                 </node>
             </children>
