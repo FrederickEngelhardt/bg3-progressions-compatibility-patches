@@ -7,27 +7,27 @@
                 <node id="Dependencies">
                     <children>
                         <node id="ModuleShortDesc">
-                            <attribute id="Folder" type="LSString" value="Shared"/>
+                            <attribute id="Folder" type="LSWString" value="Feat Every 2 Levels"/>
                             <attribute id="MD5" type="LSString" value=""/>
-                            <attribute id="Name" type="LSString" value="Shared"/>
-                            <attribute id="UUID" type="FixedString" value="ed539163-bb70-431b-96a7-f5b2eda5376b"/>
-                            <attribute id="Version64" type="int64" value="36029297386049870"/>
+                            <attribute id="Name" type="FixedString" value="Feat Every 2 Levels"/>
+                            <attribute id="UUID" type="FixedString" value="d8948833-e4a7-4ba5-b60c-14d3b18cd692"/>
+                            <attribute id="Version" type="int32" value="2"/>
                         </node>
                         <node id="ModuleShortDesc">
-                            <attribute id="Folder" type="LSString" value="GustavDev"/>
+                            <attribute id="Folder" type="LSString" value="MoreSpellsForSorc"/>
                             <attribute id="MD5" type="LSString" value=""/>
-                            <attribute id="Name" type="LSString" value="GustavDev"/>
-                            <attribute id="UUID" type="FixedString" value="28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8"/>
-                            <attribute id="Version64" type="int64" value="144255925567876650"/>
+                            <attribute id="Name" type="LSString" value="MoreSpellsForSorc"/>
+                            <attribute id="UUID" type="FixedString" value="3d4edb18-c672-43c8-9a01-b0543a1a064c"/>
+                            <attribute id="Version" type="int32" value="1"/>
                         </node>
                     </children>
                 </node>
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSWString" value="zolantris"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSWString" value="Progression compatibility patcher - patch for sorcerer 2x spells + every 2 levels a feat 1-12"/>
-                    <attribute id="Folder" type="LSString" value="progression_compatibility_patcher"/>
-                    <attribute id="Name" type="LSString" value="prog_compat_patcher-2x_sorcercer_feats_every_2"/>
+                    <attribute id="Description" type="LSWString" value="Progression Compatibility Patches - patch for sorcerer 2x spells + every 2 levels a feat 1-12"/>
+                    <attribute id="Folder" type="LSString" value="ProgressionCompatibilityPatcher"/>
+                    <attribute id="Name" type="LSString" value="ProgCompatPatches - MoreSpellsForSorc 2x and Feat Every 2 Levels"/>
                     <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value=""/>
