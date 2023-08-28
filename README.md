@@ -1,4 +1,4 @@
-# Baldurs Gate 3 - Progress Compatibility Patches
+# Baldurs Gate 3 - Progressions Compatibility Patches
 
 A character progressions file compatibility fixes across mods. The aim is for each patch to ship compatibility changes per mod and omit all other changes. Files changed should only be related to Progressions/progressions.lsx file and this mod will most likely need to be loaded __LAST__ or below the related mods..
 
