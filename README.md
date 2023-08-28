@@ -34,15 +34,29 @@ This kind of pattern will happen with other mods that adjust Progressions/progre
 4. Click on the tab for PAK/LSV tools and make sure you are on Baldur's Gate 3 (64 Bit) for Game (above the tabs).
 6. Extract the mods that are conflicting by providing the path or using the explorer.
 7. Open the conflicting file in VSCode. https://code.visualstudio.com/ if you do not have VSCode download it.
-8. Reference the other mod's Progression/Progression.lsx file. FYI Theses files are XML, and the overwrite procedure looks like anything with a conflicting level will overwrite all values inside it. IE it will not merge the values but directly overwrite. Your patch will need to combine any level reference that contains different data and export only those values
+8. Reference the other mod's `Progressions/Progressions.lsx` file. FYI Theses files are XML, and the overwrite procedure looks like anything with a conflicting level will overwrite all values inside it. IE it will not merge the values but directly overwrite. Your patch will need to combine any level reference that contains different data and export only those values
+9. Once you created a patch for the Progressions.lsx file, you will want to create a new mod patch.
 
 
 ### New Mod Patches
 
+#### Requirements
 - Folder name should be `PCP_<Mod1>_<Mod2>_<Mod3>`
+- Each patch should contain a `Mods/ProgressionsCompatibilityPatches/meta.lsx` and a `Public/ProgressionsCompatibilityPatches/Progressions.lsx`
+- Under meta.lsx please make sure to add the related mods as dependencies, not doing so will make it hard to track down the specific mod that this patch targets.
+   - the dependencies should be only the mods related to this patch.
 - Make sure the meta is separate UUID, it's possible a few patches will be used together and listed as compatible.
 - Meta UUID format should be `ed539163-bb70-prog-patc-<12 alphanumeric name of mods being patched for>`
 - Archives and .pak is a manual process for now. It should be automated on a github pipeline
+
+#### Steps
+
+1. Point the ConverterApp.exe PAK/LSV Tool path to the new mod. Example we hava two mods named 2xSpells and 2xFeats
+2. The folder would be `<BASE_PATH>/PCP_2xSpells_2xFeats`
+3. The output then should also match the folder name, just add a .pak at the end IE `<BASE_PATH>/PCP_2xSpells_2xFeats.pak`
+4. To test this .pak you can now install it directly with vortex and select "Create new mod folder with this pak". It should be a pop-up.
+5. If this works congrats!
+6. HELP OTHERS OUT - submit a pull request with your changes and I'll publish it.
 
 ### Future Features / Plans
 
